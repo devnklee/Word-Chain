@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		222A0E6C200AF4FA006235DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E6B200AF4FA006235DB /* AppDelegate.swift */; };
-		222A0E6E200AF4FB006235DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E6D200AF4FB006235DB /* ViewController.swift */; };
+		222A0E6E200AF4FB006235DB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E6D200AF4FB006235DB /* WelcomeViewController.swift */; };
 		222A0E71200AF4FB006235DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222A0E6F200AF4FB006235DB /* Main.storyboard */; };
 		222A0E73200AF4FB006235DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222A0E72200AF4FB006235DB /* Assets.xcassets */; };
 		222A0E76200AF4FB006235DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222A0E74200AF4FB006235DB /* LaunchScreen.storyboard */; };
 		222A0E7E200AF78D006235DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 222A0E7D200AF78D006235DB /* GoogleService-Info.plist */; };
+		222A0E87200B0E2E006235DB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E86200B0E2E006235DB /* Message.swift */; };
+		222A0E89200B0EB5006235DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E88200B0EB5006235DB /* LoginViewController.swift */; };
+		222A0E8B200B0EDB006235DB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E8A200B0EDB006235DB /* RegisterViewController.swift */; };
+		222A0E8D200B0EF4006235DB /* FindUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E8C200B0EF4006235DB /* FindUserViewController.swift */; };
+		222A0E8F200B0F00006235DB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E8E200B0F00006235DB /* ChatViewController.swift */; };
+		222A0E94200B0FFE006235DB /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222A0E92200B0FFE006235DB /* MessageCell.xib */; };
+		222A0E95200B0FFE006235DB /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E93200B0FFE006235DB /* CustomMessageCell.swift */; };
 		86A451B8AB348090B9D49E90 /* Pods_Word_Chain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB12E75DE9DF3A75EB8E88C /* Pods_Word_Chain.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +27,19 @@
 		02F25E297354047B660F4110 /* Pods-Word-Chain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word-Chain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Word-Chain/Pods-Word-Chain.release.xcconfig"; sourceTree = "<group>"; };
 		222A0E68200AF4FA006235DB /* Word-Chain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word-Chain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		222A0E6B200AF4FA006235DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		222A0E6D200AF4FB006235DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		222A0E6D200AF4FB006235DB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		222A0E70200AF4FB006235DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		222A0E72200AF4FB006235DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		222A0E75200AF4FB006235DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		222A0E77200AF4FB006235DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222A0E7D200AF78D006235DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		222A0E86200B0E2E006235DB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		222A0E88200B0EB5006235DB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		222A0E8A200B0EDB006235DB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		222A0E8C200B0EF4006235DB /* FindUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUserViewController.swift; sourceTree = "<group>"; };
+		222A0E8E200B0F00006235DB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		222A0E92200B0FFE006235DB /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		222A0E93200B0FFE006235DB /* CustomMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
 		4445D801E53C6BC1784D96C1 /* Pods-Word-Chain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word-Chain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Word-Chain/Pods-Word-Chain.debug.xcconfig"; sourceTree = "<group>"; };
 		EAB12E75DE9DF3A75EB8E88C /* Pods_Word_Chain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Word_Chain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -63,15 +77,46 @@
 		222A0E6A200AF4FA006235DB /* Word-Chain */ = {
 			isa = PBXGroup;
 			children = (
-				222A0E6B200AF4FA006235DB /* AppDelegate.swift */,
-				222A0E6D200AF4FB006235DB /* ViewController.swift */,
-				222A0E6F200AF4FB006235DB /* Main.storyboard */,
-				222A0E72200AF4FB006235DB /* Assets.xcassets */,
-				222A0E74200AF4FB006235DB /* LaunchScreen.storyboard */,
 				222A0E77200AF4FB006235DB /* Info.plist */,
 				222A0E7D200AF78D006235DB /* GoogleService-Info.plist */,
+				222A0E7F200AF8F6006235DB /* Model */,
+				222A0E81200AF909006235DB /* View */,
+				222A0E82200AF910006235DB /* Controller */,
 			);
 			path = "Word-Chain";
+			sourceTree = "<group>";
+		};
+		222A0E7F200AF8F6006235DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				222A0E86200B0E2E006235DB /* Message.swift */,
+				222A0E93200B0FFE006235DB /* CustomMessageCell.swift */,
+				222A0E92200B0FFE006235DB /* MessageCell.xib */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		222A0E81200AF909006235DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				222A0E6F200AF4FB006235DB /* Main.storyboard */,
+				222A0E74200AF4FB006235DB /* LaunchScreen.storyboard */,
+				222A0E72200AF4FB006235DB /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		222A0E82200AF910006235DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				222A0E6B200AF4FA006235DB /* AppDelegate.swift */,
+				222A0E6D200AF4FB006235DB /* WelcomeViewController.swift */,
+				222A0E88200B0EB5006235DB /* LoginViewController.swift */,
+				222A0E8A200B0EDB006235DB /* RegisterViewController.swift */,
+				222A0E8C200B0EF4006235DB /* FindUserViewController.swift */,
+				222A0E8E200B0F00006235DB /* ChatViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		B4A16904C6AE099EEB99ECCA /* Frameworks */ = {
@@ -153,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222A0E94200B0FFE006235DB /* MessageCell.xib in Resources */,
 				222A0E76200AF4FB006235DB /* LaunchScreen.storyboard in Resources */,
 				222A0E7E200AF78D006235DB /* GoogleService-Info.plist in Resources */,
 				222A0E73200AF4FB006235DB /* Assets.xcassets in Resources */,
@@ -231,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222A0E6E200AF4FB006235DB /* ViewController.swift in Sources */,
+				222A0E8D200B0EF4006235DB /* FindUserViewController.swift in Sources */,
+				222A0E89200B0EB5006235DB /* LoginViewController.swift in Sources */,
+				222A0E95200B0FFE006235DB /* CustomMessageCell.swift in Sources */,
+				222A0E8B200B0EDB006235DB /* RegisterViewController.swift in Sources */,
+				222A0E8F200B0F00006235DB /* ChatViewController.swift in Sources */,
+				222A0E87200B0E2E006235DB /* Message.swift in Sources */,
+				222A0E6E200AF4FB006235DB /* WelcomeViewController.swift in Sources */,
 				222A0E6C200AF4FA006235DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
