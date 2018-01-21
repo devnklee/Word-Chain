@@ -20,6 +20,9 @@
 		222A0E8F200B0F00006235DB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E8E200B0F00006235DB /* ChatViewController.swift */; };
 		222A0E94200B0FFE006235DB /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222A0E92200B0FFE006235DB /* MessageCell.xib */; };
 		222A0E95200B0FFE006235DB /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A0E93200B0FFE006235DB /* CustomMessageCell.swift */; };
+		22565FE82014691A006AEA84 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22565FE72014691A006AEA84 /* FBSDKLoginKit.framework */; };
+		22565FEA20146947006AEA84 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22565FE920146947006AEA84 /* Bolts.framework */; };
+		22565FEC20146951006AEA84 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22565FEB20146951006AEA84 /* FBSDKCoreKit.framework */; };
 		86A451B8AB348090B9D49E90 /* Pods_Word_Chain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB12E75DE9DF3A75EB8E88C /* Pods_Word_Chain.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +43,9 @@
 		222A0E8E200B0F00006235DB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		222A0E92200B0FFE006235DB /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		222A0E93200B0FFE006235DB /* CustomMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		22565FE72014691A006AEA84 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		22565FE920146947006AEA84 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		22565FEB20146951006AEA84 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		4445D801E53C6BC1784D96C1 /* Pods-Word-Chain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word-Chain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Word-Chain/Pods-Word-Chain.debug.xcconfig"; sourceTree = "<group>"; };
 		EAB12E75DE9DF3A75EB8E88C /* Pods_Word_Chain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Word_Chain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -49,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22565FEA20146947006AEA84 /* Bolts.framework in Frameworks */,
+				22565FEC20146951006AEA84 /* FBSDKCoreKit.framework in Frameworks */,
+				22565FE82014691A006AEA84 /* FBSDKLoginKit.framework in Frameworks */,
 				86A451B8AB348090B9D49E90 /* Pods_Word_Chain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +131,9 @@
 		B4A16904C6AE099EEB99ECCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22565FEB20146951006AEA84 /* FBSDKCoreKit.framework */,
+				22565FE920146947006AEA84 /* Bolts.framework */,
+				22565FE72014691A006AEA84 /* FBSDKLoginKit.framework */,
 				EAB12E75DE9DF3A75EB8E88C /* Pods_Word_Chain.framework */,
 			);
 			name = Frameworks;
@@ -423,6 +435,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Word-Chain/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.kbsy.Word-Chain";
@@ -438,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Word-Chain/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.kbsy.Word-Chain";

@@ -48,6 +48,17 @@
                                     <segue destination="bvd-Xs-Etx" kind="show" identifier="goToRegistration" id="xOu-q0-xCk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWB-I2-U87">
+                                <rect key="frame" x="34" y="572" width="347" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Login WIth Facebook">
+                                    <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginWithFacebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b40-Mq-t9O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -326,6 +337,6 @@
         <image name="pasta" width="640" height="426"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eKs-Ri-o6A"/>
+        <segue reference="YRf-Oe-w3U"/>
     </inferredMetricsTieBreakers>
 </document>

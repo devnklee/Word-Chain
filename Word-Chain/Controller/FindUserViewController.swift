@@ -56,7 +56,7 @@ class FindUserViewController: UIViewController, UITableViewDelegate,UITableViewD
                 self.IDTableView.reloadData()
             }
             
-            print(snapshotValue, (Auth.auth().currentUser?.email)!)
+            //print(snapshotValue, (Auth.auth().currentUser?.email)!)
             
         }
     }

@@ -11,7 +11,8 @@ import UIKit
 import Firebase
 import SVProgressHUD
 
-class LogInViewController: UIViewController {
+
+class LogInViewController: UIViewController{
     
     //Textfields pre-linked with IBOutlets
     @IBOutlet weak var emailTextfield: UITextField!
@@ -41,6 +42,7 @@ class LogInViewController: UIViewController {
         }
     }
 
+    
     
     
     
