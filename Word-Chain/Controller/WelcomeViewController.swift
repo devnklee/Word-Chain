@@ -26,17 +26,28 @@ class WelcomeViewController: UIViewController {
     
     func autoLogin() {
         if Auth.auth().currentUser?.uid != nil {
-            print("**AUTO LOGIN**")
-            let params = ["fields": "id, first_name, last_name, middle_name, name, email, picture"]
-            let request = FBSDKGraphRequest(graphPath: "me/taggable_friends", parameters: params)
-            //var friendList = []()
-            request?.start(completionHandler: { (connection, result, error) in
-                if error == nil {
-                    print("yalllo")
-                
-                    //friendList.append(result)
-                }
-            })
+            print("**AUTO LOGIN with \(Auth.auth().currentUser?.email)**")
+            //getting FACEBOOK FRIENDS
+//            let params = ["fields": "id, name"]
+//            let request = FBSDKGraphRequest(graphPath: "me/taggable_friends", parameters: params)
+//
+//            request?.start(completionHandler: { (connection, result, error) in
+//                if error == nil {
+//                    let list : NSDictionary = result as! NSDictionary
+//                    let friendsArray :NSArray = list.object(forKey: "data") as! NSArray
+//
+//                    print("LET's PRINT NOW \(friendsArray.count)")
+//                    for i in 0..<friendsArray.count {
+//                        let values : NSDictionary = friendsArray[i] as! NSDictionary
+//                        let id = values.object(forKey: "id") as! String
+//                        let name = values.object(forKey: "name") as! String
+//                        print("\(name) has ID: \(id)")
+//                    }
+//                    //friendList.append(result)
+//                }
+//            })
+            
+            
             
             performSegue(withIdentifier: "goToFindUser", sender: self)
         }
@@ -56,6 +67,7 @@ class WelcomeViewController: UIViewController {
                     if error != nil {
                         print("Error")
                     }else {
+                        
                         self.performSegue(withIdentifier: "goToFindUser", sender: self)
                     }
                 })
